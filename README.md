@@ -36,6 +36,13 @@ obj.containsValue(value);
 obj.values();
 obj.setKey();
 ```
+#### If we have if-else with hash-table
+We can use the method _.computeIfAbsent_
+```
+ArrayList<String> objs = obj..computeIfAbsent(
+    ourKey, key -> new ArrayList<>()
+    );
+```
 ---
 
 ## Some info about _Wrapper classes_
@@ -106,3 +113,4 @@ System.out.printf(
 %b - boolean
 %n - it's like \n
 ```
+---
