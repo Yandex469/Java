@@ -39,7 +39,7 @@ obj.setKey();
 #### If we have if-else with hash-table
 We can use the method _.computeIfAbsent_
 ```
-ArrayList<String> objs = obj..computeIfAbsent(
+ArrayList<String> objs = obj.computeIfAbsent(
     ourKey, key -> new ArrayList<>()
     );
 ```
@@ -114,3 +114,11 @@ System.out.printf(
 %n - it's like \n
 ```
 ---
+
+## Some info about hot-case
+
+#### It's for fast creating any combinations 
+```
+control + O
+command + N
+```
